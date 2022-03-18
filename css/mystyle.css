@@ -59,7 +59,7 @@ body{
 .nav{
 	top: 0;
 	width:100%;
-	height:50px;
+	height:64px;
 	background: rgba(0, 0, 0, 0.8);
 }
 .navmenu{
@@ -69,14 +69,14 @@ body{
 }
 .button{
 	text-align: center;
-	width: 200px;
-	padding: 18px 10px;
+	width: 244px;
+	padding: 24px 10px;
 	display:block;
-	font-size:14px;
+	font-size: 16px;
 	transition: all 0.5s ease;
 }
 .filmmenu ul .button{
-	font-size: 12px;
+	font-size: 14px;
 	/* background-color: rgba(0, 0, 0, 0.8); */
 	background-color: black;
 }
@@ -99,17 +99,16 @@ body{
 	box-shadow: 1px 5px 10px -5px black;
 	transition: all 0.5s ease;
 }
-.what_is_base{
-	margin-top:10px;
-	width: 100%;
-	height:300px;
-	border: 2px solid blue;
+.base_dc{
+	margin-top: 20px;
 }
-.sidebar{
-	float: right;
-	width: 30%;
-	height: 300px;
-	border: 2px solid red;
+.wibflex{
+	display: flex;
+}
+.what_is_base{
+	width: 70%;
+	height: 270px;
+	/* border: 2px solid blue; */
 }
 .what_is_base h2{
 	text-align: center;
@@ -125,10 +124,52 @@ body{
 	font-weight:400;
 	font-size: 20px;
 }
+.sidebar{
+	width: 30%;
+	height: 270px;
+	margin-left: 10px;
+	border: 2px solid rgb(119,119,119);
+}
+
+/*----------------------------------------------------*/
+
+.sidebar ul{
+	margin: 0 auto;
+	width:250px;
+	height:239px;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .sidebar h2{
 	text-align: center;
 	font-weight: bold;
 	font-size: 18px;
 	margin-top: 10px;
+}
+.hlink{
+	text-align: center;
+	padding: 20px 10px;
+	display: inline-block; 
+	font-size: 20px;
+	color: black;
+}
+.sidebar ul li::before{
+	content:'';
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background: url("https://cdn-icons-png.flaticon.com/512/25/25638.png");
+	background-color: darkblue;
+}
+
+/*----------------------------------------------------*/
+
+.basevideo{
+	width:560px;
+	height: 315px;
+	margin: 20px auto;
 }
 
