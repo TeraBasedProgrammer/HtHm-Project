@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: "Open Sans", sans-serif;
 	background-image: url('https://media.moddb.com/images/downloads/1/225/224926/imagine_by_kvacm_dd3sd3v.jpg');
@@ -6,7 +9,7 @@ body{
 	height: 3000px;
 }
 .container{
-	width: 800px;
+	width: 1000px;
 	min-height: 1500px;
 	margin:60px auto;
 	border: 5px solid white;
@@ -14,12 +17,12 @@ body{
 }
 .header{
 	display: flex;
-	height: 200px;
+	height: 250px;
 	width: 100%;
 }
 .pagename{
 	position: relative;
-	height:200px;
+	height:250px;
 	width: 70%;
 	/* background-color: #4d4855;
     background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%); */
@@ -43,10 +46,10 @@ body{
 	text-align: center;
 	color: white;
 	font-size: 60px;
-	padding-top:63px;
+	padding-top:96px;
 }
 .icon{
-	height:200px;
+	height:250px;
 	width: 30%;
 }
 .icon img{
@@ -73,7 +76,7 @@ body{
 	transition: all 0.5s ease;
 }
 .filmmenu ul .button{
-	font-size: 10px;
+	font-size: 12px;
 	/* background-color: rgba(0, 0, 0, 0.8); */
 	background-color: black;
 }
@@ -96,23 +99,36 @@ body{
 	box-shadow: 1px 5px 10px -5px black;
 	transition: all 0.5s ease;
 }
-.base_dc{
-	position: relative;
-}
 .what_is_base{
-	width: 70%;
+	margin-top:10px;
+	width: 100%;
 	height:300px;
 	border: 2px solid blue;
-
 }
 .sidebar{
-	position: absolute;
-	top:0;
-	right:0;
-	z-index:0;
+	float: right;
 	width: 30%;
 	height: 300px;
 	border: 2px solid red;
 }
-
+.what_is_base h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.what_is_base p{
+	line-height: 27px;
+	text-indent: 50px;
+	text-align:justify;
+	margin-top:10px;
+	font-weight:400;
+	font-size: 20px;
+}
+.sidebar h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+}
 
