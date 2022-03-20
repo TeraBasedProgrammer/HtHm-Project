@@ -110,13 +110,13 @@ body{
 	height: 270px;
 	/* border: 2px solid blue; */
 }
-.what_is_base h2{
+.title{
 	text-align: center;
 	font-weight: bold;
 	font-size: 30px;
 	margin-top: 10px;
 }
-.what_is_base p, .descrip_text{
+.text{
 	line-height: 27px;
 	text-indent: 50px;
 	text-align:justify;
@@ -213,19 +213,18 @@ body{
 	float:right;
 	box-shadow: 7px 7px 10px black;
 }
-/* .descrip_text{
-	line-height: 27px;
-	text-indent: 50px;
-	text-align:justify;
-	margin-top:10px;
-	font-weight:400;
-	font-size: 20px;
-} */
-.descrip_text span{
+.descrip span{
    color:rgb(196, 0, 0);
    font-weight: bold;
    font-style: italic;
 }
+.film{
+	position: relative;
+	height:400px;
+	margin: 30px 0;
+	border: 2px solid green;
+}
+
 
 
 
