@@ -10,7 +10,7 @@ body{
 }
 .container{
 	width: 1000px;
-	min-height: 1500px;
+	min-height: 3000px;
 	margin:60px auto;
 	border: 5px solid white;
 	background-color: white;
@@ -116,7 +116,7 @@ body{
 	font-size: 30px;
 	margin-top: 10px;
 }
-.what_is_base p{
+.what_is_base p, .descrip_text{
 	line-height: 27px;
 	text-indent: 50px;
 	text-align:justify;
@@ -196,5 +196,36 @@ body{
 	height: 315px;
 	margin: 20px auto;
 }
+.how_to_become_based h2{
+	text-align: center;
+    margin: 40px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.htbb_wrapper{
+	/* border: 2px solid green; */
+	height:500px;
+}
+.htbb_wrapper img{
+	margin: 0px 20px;
+	width: 300px;
+	height:300px;
+	float:right;
+	box-shadow: 7px 7px 10px black;
+}
+/* .descrip_text{
+	line-height: 27px;
+	text-indent: 50px;
+	text-align:justify;
+	margin-top:10px;
+	font-weight:400;
+	font-size: 20px;
+} */
+.descrip_text span{
+   color:rgb(196, 0, 0);
+   font-weight: bold;
+   font-style: italic;
+}
+
 
 
