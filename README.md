@@ -1,2 +1,1 @@
-"# HtHm-Project" 
-"# by Ilya Dronov"
+"# HtHm-Project"  by Ilya Dronov
