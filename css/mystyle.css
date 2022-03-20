@@ -237,6 +237,7 @@ body{
 	font-weight:bold;
 }
 .filmtextblock{
+ padding-left:13px;
   height: 430px;
   /* border:2px solid orange; */
 }
@@ -244,7 +245,7 @@ body{
 	width: 262px;
 	height: 346px;
 	float:left;
-	margin-left:13px;
+	/* margin-left:13px; */
 	/* border: 2px solid red; */
 }
 .posterblock img{
