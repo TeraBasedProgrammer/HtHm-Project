@@ -35,8 +35,6 @@ body{
 	position: relative;
 	height:250px;
 	width: 70%;
-	/* background-color: #4d4855;
-    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%); */
 	background: url("https://www.teahub.io/photos/full/9-98923_blade-runner-2049-hologram-girl-live-wallpaper-blade.jpg") no-repeat center center / cover;
     
 }
@@ -80,15 +78,16 @@ body{
 }
 .button{
 	text-align: center;
-	width: 244px;
-	padding: 24px 10px;
-	display:block;
-	font-size: 16px;
+  width: 244px;
+  padding: 24px 10px;
+  display:block;
+  font-size: 16px;
+  transition: all 0.5s ease;
 }
 .filmmenu ul .button{
 	font-size: 14px;
-	/* background-color: rgba(0, 0, 0, 0.8); */
 	background-color: black;
+	transition: all 0.3s ease;
 }
 .filmmenu ul{ 
 	position:relative;
@@ -99,10 +98,9 @@ body{
 	z-index: 2;
 }
 .filmmenu ul .button:hover{
-	/* background-color: rgba(0, 0, 0, 0.75); */
 	background-color: rgb(65, 58, 58);
 	box-shadow: 1px 5px 10px -5px black;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 .button:hover{
 	background-color: rgba(0, 0, 0, 0.75);
@@ -118,7 +116,6 @@ body{
 .what_is_base{
 	width: 70%;
 	height: 270px;
-	/* border: 2px solid blue; */
 }
 .title{
 	text-align: center;
@@ -158,9 +155,6 @@ body{
 	background-color:white;
 	opacity: 0.8;
 }
-
-/*----------------------------------------------------*/
-
 .sidebar ul{
 	position: relative;
 	z-index: 1;
@@ -184,7 +178,6 @@ body{
 	height: 16px;
 	background-image: url("../img/arrow.png");
 	background-size: 100%;
-    /* background-color: darkblue; */
 } 
 .sidebar ul li:hover{
 	padding-left: 30px;
@@ -216,7 +209,6 @@ body{
 	font-size: 30px;
 }
 .htbb_wrapper{
-	/* border: 2px solid green; */
 	height:500px;
 }
 .htbb_wrapper img{
@@ -234,13 +226,14 @@ body{
    font-weight: bold;
    font-style: italic;
 }
+.bf{
+	margin-bottom: 60px;
+}
 .film{
 	height: 850px;
 	margin: 30px 0;
-	/* border: 2px solid green; */
 }
 .film h2{
-	/* border: 2px solid darkblue; */
 	margin: 17px 0px 30px 13px;
 	font-size:20px;
 	font-weight:bold;
@@ -248,13 +241,11 @@ body{
 .filmtextblock{
  padding-left:13px;
   height: 430px;
-  /* border:2px solid orange; */
 }
 .posterblock{
 	width: 262px;
 	height: 346px;
 	float:left;
-	/* border: 2px solid red; */
 }
 .posterblock img{
 	width:215px;
@@ -269,7 +260,6 @@ body{
 	margin: 0px 20px 0px 0px;
 }
 .filmframes{
-	/* border: 2px solid brown; */
 	display: flex;
 	height: 280px;
 	justify-content: space-between;
@@ -279,6 +269,7 @@ body{
 	width: 300px;
 	height: 100%;
 }
+
 
 
 
