@@ -263,11 +263,11 @@ body{
 	/* border: 2px solid brown; */
 	display: flex;
 	height: 280px;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 30px 20px 30px 15px;
 }
 .filmframes img{
-	width: 280px;
+	width: 300px;
 	height: 100%;
 }
 
