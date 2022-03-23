@@ -113,9 +113,20 @@ body{
     display: flex; 
 }
 .introduction{
-    border:2px solid red;
+    /* border:2px solid red; */
     width: 70%;
 	height: 270px;
+}
+.text{
+	line-height: 27px;
+	text-indent: 50px;
+	text-align:justify;
+	margin-top:10px;
+	font-weight:400;
+	font-size: 20px;
+}
+.intro{
+	margin-left:20px;
 }
 .sidebar{
 	position: relative;
@@ -180,3 +191,133 @@ body{
 	font-size: 20px;
 	color: black;
 }
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 40px 0px 60px 0px;
+}
+.person{
+/* border: 2px solid yellow; */
+height: 850px;
+margin: 30px 0;
+}
+.persontextblock{
+	/* border: 2px solid darkblue; */
+	padding-left:13px;
+	height: 430px;
+  }
+.person h3{
+	margin: 17px 0px 30px 13px;
+	font-size:20px;
+	font-weight:bold;
+}
+.personpic{
+	/* border: 2px solid red; */
+	width: 250px;
+	height: 320px;
+	float:left;
+}
+.personpic img{
+	width:215px;
+	height:250px;
+}
+.personpic h3{
+	font-size:18px;
+	font-weight:bold;
+	margin-top: 15px;
+}
+.persondescrip{
+	margin: 0px 20px 0px 0px;
+}
+.otherpics{
+	/* border: 2px solid green; */
+	display: flex;
+	height: 280px;
+	justify-content: space-between;
+	margin: 30px 20px 30px 15px;
+}
+.otherpics img{
+	width: 300px;
+	height: 100%;
+}
+.pageswitchblock{
+	display: flex;
+	margin: 50px 0;
+	position: relative;
+	height: 50px;
+}
+.footer{
+	display:flex;
+	position:relative;
+	margin-top: 30px;
+	height:200px;
+	background: url("https://cdn.prod.www.spiegel.de/images/4317195a-0001-0004-0000-000001195323_w1528_r1.5625_fpx43.52_fpy50.jpg") no-repeat center center / cover;
+}
+.footer p{
+	display: flex;
+	position: relative;
+	z-index:10;
+	color:white
+}
+.footer::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background-color: black;
+	opacity: 0.8;
+}
+.footertitle{
+	position: relative;
+    top: 18px;
+    left: 94px;
+    z-index: 1;
+    width: 369px;
+    height: 170px;
+    border-right: 1px solid rgb(119,119,119);
+}
+.footertitle h2{
+	cursor:default;
+	position: relative;
+	top: 60px;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+.footersm{
+	color:white;
+	position: relative;
+    top: 18px;
+	left: 115px;
+    z-index: 1;
+    width: 369px;
+    height: 170px;
+}
+.footersm h3{
+  text-decoration: underline;
+  font-size: 20px;
+  margin: 0px 10px 10px 10px;
+}
+.footersm ol{
+	margin:5px;
+	font-size: 16px;
+	position:relative;
+	left: 20px;
+	list-style:upper-roman;
+}
+.footersm ol li{
+	position:relative;
+	margin: 9px;
+}
+.footersm ol li a{
+	margin-left:5px;
+}
+.footersm ol li a:hover{
+   color: grey;
+}
+
+
+

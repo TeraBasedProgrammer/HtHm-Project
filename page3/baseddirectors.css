@@ -1,0 +1,24 @@
+.previouspagebuttonblock{
+    margin: 0;
+	display:inline-flex;
+	position: relative;
+	top:0;
+	left:20px;
+	height: 50px;
+	width: 385px;
+}
+.previouspagebuttonblock i{
+	font-size:25px;
+	height: 25px;
+	position: relative;
+	top: 9px;
+	left: 0px;
+}
+.previouspagelink{
+	text-align: center;
+	padding: 13px 10px;
+	width:360px;
+	display: block; 
+	font-size: 18px;
+	color: black;
+}
