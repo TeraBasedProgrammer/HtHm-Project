@@ -179,9 +179,12 @@ body{
 	height: 16px;
 	background-image: url("../img/arrow.png");
 	background-size: 100%;
-} 
+}
 .sidebar ul li:hover{
-	padding-left: 30px;
+	padding-left: 15px;
+}
+.sidebar ul li.mpli:hover{
+	padding-left:13px;
 }
 .sidebar h2{
 	position: relative;
@@ -197,6 +200,9 @@ body{
 	display: inline-block; 
 	font-size: 20px;
 	color: black;
+}
+.mpl{
+	padding: 20px 0px 20px 10px;
 }
 .basevideo{
 	width:560px;

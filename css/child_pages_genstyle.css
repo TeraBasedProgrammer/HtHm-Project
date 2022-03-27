@@ -125,6 +125,15 @@ body{
 	font-weight:400;
 	font-size: 20px;
 }
+.textlink{
+	font-size:20;
+    font-weight: bold; 
+	text-decoration: underline; 
+	color: black;
+}
+.textlink:hover{
+	text-decoration: underline;
+}
 .intro{
 	margin-left:20px;
 }
@@ -174,7 +183,10 @@ body{
 	background-size: 100%;
 } 
 .sidebar ul li:hover{
-	padding-left: 30px;
+	padding-left: 15px;
+}
+.sidebar ul li.mpli:hover{
+	padding-left:13px;
 }
 .sidebar h2{
 	position: relative;
@@ -190,6 +202,9 @@ body{
 	display: inline-block; 
 	font-size: 20px;
 	color: black;
+}
+.mpl{
+	padding: 20px 0px 20px 10px;
 }
 .title{
 	text-align: center;
@@ -225,7 +240,7 @@ margin: 30px 0;
 .personpic h3{
 	font-size:18px;
 	font-weight:bold;
-	margin-top: 15px;
+	margin: 15px 0px 0px 0px;
 }
 .persondescrip{
 	margin: 0px 20px 0px 0px;
