@@ -237,7 +237,6 @@ body{
 	margin-bottom: 60px;
 }
 .film{
-	/* border: 2px solid yellow; */
 	height: 850px;
 	margin: 30px 0;
 }
@@ -247,12 +246,10 @@ body{
 	font-weight:bold;
 }
 .filmtextblock{
-  /* border: 2px solid darkblue; */
   padding-left:13px;
   height: 480px;
 }
 .posterblock{
-	/* border: 2px solid red; */
 	width: 262px;
 	height: 410px;
 	float:left;
@@ -279,7 +276,6 @@ audio{
 	margin: 0px 20px 0px 0px;
 }
 .filmframes{
-	/* border: 2px solid green; */
 	display: flex;
 	height: 280px;
 	justify-content: space-between;
