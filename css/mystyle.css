@@ -308,6 +308,9 @@ audio{
 	top: 12px;
 	left: 0px;
 }
+.commentscontainer a{
+	color: #656c7a;
+}
 .footer{
 	display:flex;
 	position:relative;
@@ -379,6 +382,7 @@ audio{
 .footersm ol li a:hover{
    color: grey;
 }
+
 
 
 
