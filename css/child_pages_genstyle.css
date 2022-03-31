@@ -258,6 +258,9 @@ margin: 30px 0;
 	position: relative;
 	height: 50px;
 }
+.commentscontainer a{
+	color: #656c7a;
+}
 .footer{
 	display:flex;
 	position:relative;
