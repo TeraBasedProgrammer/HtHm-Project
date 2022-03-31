@@ -22,7 +22,7 @@ let audioNL = document.querySelectorAll('audio');
             })
         });
 
-/* Обработка scroll-up кнопки*/
+/* Обработка scroll-up кнопки */
 
 $(function() {
   $('.scrollup').click(function() {
