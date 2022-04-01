@@ -36,7 +36,17 @@ body{
 	height:250px;
 	width: 70%;
 	background: url("https://www.teahub.io/photos/full/9-98923_blade-runner-2049-hologram-girl-live-wallpaper-blade.jpg") no-repeat center center / cover;
-    
+}
+.titleimgblock{
+   padding: 75px 0px 0px 146px;
+   position: relative;
+   z-index:2;
+}
+.pagename img{
+	width: 400px;
+	height:  100px;
+	position: relative;
+	z-index:3;
 }
 .pagename::after{
 	content: '';
@@ -49,7 +59,7 @@ body{
 	opacity: 0.7;
 }
 
-.pagename h1{
+/* .pagename h1{
 	cursor:default;
 	position: relative;
 	z-index: 1;
@@ -57,7 +67,7 @@ body{
 	color: white;
 	font-size: 60px;
 	padding-top:96px;
-}
+} */
 .icon{
 	height:250px;
 	width: 30%;
