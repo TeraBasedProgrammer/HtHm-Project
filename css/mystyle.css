@@ -35,7 +35,8 @@ body{
 	position: relative;
 	height:250px;
 	width: 70%;
-	background: url("https://www.teahub.io/photos/full/9-98923_blade-runner-2049-hologram-girl-live-wallpaper-blade.jpg") no-repeat center center / cover;
+	/* background: url("https://www.teahub.io/photos/full/9-98923_blade-runner-2049-hologram-girl-live-wallpaper-blade.jpg") no-repeat center center / cover;*/
+	background: url("https://s11.favim.com/orig/7/776/7761/77616/blade-runner-2049-gif-pink-Favim.com-7761650.gif")  no-repeat center center / cover;
 }
 .titleimgblock{
    padding: 75px 0px 0px 146px;
