@@ -1,3 +1,6 @@
+.pagename{
+	background: url("../img/2ndpagetitleimg.png") no-repeat center center / cover;
+}
 .nextpagebuttonblock{
     margin:0;
 	display:inline-flex;

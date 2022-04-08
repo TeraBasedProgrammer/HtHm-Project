@@ -1,3 +1,6 @@
+.pagename{
+	background: url("../img/3rdpagetitleimg.png") no-repeat center center / cover;
+}
 .previouspagebuttonblock{
     margin: 0;
 	display:inline-flex;
