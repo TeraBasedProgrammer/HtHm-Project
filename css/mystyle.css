@@ -265,13 +265,20 @@ body{
 	margin-top: 15px;
 }
 audio{
-	border-radius: 15px;
+	position: relative;
+	z-index: 9999;
+	background-color: white;
+	border-radius: 50px;
 	border:2px solid rgb(119,119,119);
 	color: black;
 	display:block;
 	margin-top:10px;
 	height: 50px;
 	width: 240px;
+	transition: all 0.5s ease;
+}
+audio:hover{
+	width:300px;
 }
 .filmdescrip{
 	margin: 0px 20px 0px 0px;
