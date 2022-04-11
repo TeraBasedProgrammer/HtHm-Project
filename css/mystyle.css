@@ -79,7 +79,7 @@ body{
 	justify-content: space-evenly;
 }
 .button{
-	text-align: center;
+  text-align: center;
   width: 244px;
   padding: 24px 10px;
   display:block;
@@ -98,6 +98,64 @@ body{
 .filmmenu:hover > ul{
 	display: block;
 	z-index: 2;
+	perspective: 1000px;
+}
+.filmmenu:hover > ul li{
+	transform-origin: top-center;
+	opacity: 0;
+}
+.filmmenu:hover > ul li:nth-child(1){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 50ms;
+}
+.filmmenu:hover > ul li:nth-child(2){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 100ms;
+}
+.filmmenu:hover > ul li:nth-child(3){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 150ms;
+}
+.filmmenu:hover > ul li:nth-child(4){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 200ms;
+}
+.filmmenu:hover > ul li:nth-child(5){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 250ms;
+}
+.filmmenu:hover > ul li:nth-child(6){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 300ms;
+}
+.filmmenu:hover > ul li:nth-child(7){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 350ms;
+}
+.filmmenu:hover > ul li:nth-child(8){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 400ms;
+}
+.filmmenu:hover > ul li:nth-child(9){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 450ms;
+}
+.filmmenu:hover > ul li:nth-child(10){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 500ms;
+}
+@keyframes animate{
+	0%{
+		opacity: 0;
+		transform: rotateX(30deg) rotateY(45deg);
+	}
+	50%{
+		transform: rotateX(10deg) rotateY(20deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0deg) rotateY(0deg);
+	}
 }
 .filmmenu ul .button:hover{
 	background-color: rgb(65, 58, 58);

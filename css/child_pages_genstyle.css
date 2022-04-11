@@ -96,6 +96,64 @@ body{
 .peoplemenu:hover > ul{
 	display: block;
 	z-index: 10;
+	perspective: 1000px;
+}
+.peoplemenu:hover > ul li{
+	transform-origin: top-center;
+	opacity: 0;
+}
+.peoplemenu:hover > ul li:nth-child(1){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 50ms;
+}
+.peoplemenu:hover > ul li:nth-child(2){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 100ms;
+}
+.peoplemenu:hover > ul li:nth-child(3){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 150ms;
+}
+.peoplemenu:hover > ul li:nth-child(4){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 200ms;
+}
+.peoplemenu:hover > ul li:nth-child(5){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 250ms;
+}
+.peoplemenu:hover > ul li:nth-child(6){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 300ms;
+}
+.peoplemenu:hover > ul li:nth-child(7){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 350ms;
+}
+.peoplemenu:hover > ul li:nth-child(8){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 400ms;
+}
+.peoplemenu:hover > ul li:nth-child(9){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 450ms;
+}
+.peoplemenu:hover > ul li:nth-child(10){
+	animation: animate 300ms ease-in-out forwards;
+	animation-delay: 500ms;
+}
+@keyframes animate{
+	0%{
+		opacity: 0;
+		transform: rotateX(30deg) rotateY(45deg);
+	}
+	50%{
+		transform: rotateX(10deg) rotateY(20deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0deg) rotateY(0deg);
+	}
 }
 .peoplemenu ul .button:hover{
 	background-color: rgb(65, 58, 58);
