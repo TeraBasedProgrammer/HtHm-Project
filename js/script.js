@@ -39,5 +39,3 @@ $(window).scroll(function() {
     $('.scrollup').fadeOut();
   }
 });
-
-
