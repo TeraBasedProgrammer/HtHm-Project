@@ -305,25 +305,25 @@ body{
 	font-size:20px;
 	font-weight:bold;
 }
-.filmtextblock{
+.film-textblock{
   padding-left:13px;
   height: 480px;
 }
-.posterblock{
+.film-textblock__poster-block{
 	width: 262px;
 	height: 410px;
 	float:left;
 }
-.posterblock img{
+.film-textblock__poster-img{
 	width:215px;
 	height:290px;
 }
-.posterblock h3{
+.film-textblock__poster-title{
 	font-size:18px;
 	font-weight:bold;
 	margin-top: 15px;
 }
-audio{
+.film-textblock__audio{
 	position: relative;
 	z-index: 9999;
 	background-color: white;
@@ -339,20 +339,20 @@ audio{
 audio:hover{
 	width:300px;
 }
-.filmdescrip{
+.film-textblock__film-description{
 	margin: 0px 20px 0px 0px;
 }
-.filmframes{
+.based-films__filmframes{
 	display: flex;
 	height: 280px;
 	justify-content: space-between;
 	margin: 30px 20px 30px 15px;
 }
-.filmframes img{
+.based-films__frame{
 	width: 300px;
 	height: 100%;
 }
-.nextpagebuttonblock{
+.next-page-button-block{
 	margin: 50px 0;
 	display:flex;
 	position: relative;
@@ -360,7 +360,7 @@ audio:hover{
 	height: 50px;
 	width: 412px;
 }
-.nextpagelink{
+.next-page-button-block__link{
 	text-align: center;
 	padding: 13px 10px;
 	width:375px;
@@ -368,14 +368,14 @@ audio:hover{
 	font-size: 20px;
 	color: black;
 }
-.nextpagebuttonblock i{
+.next-page-button-block .fa-arrow-right-long{
 	font-size:25px;
 	height: 25px;
 	position: relative;
 	top: 12px;
 	left: 0px;
 }
-.commentscontainer a{
+.comments-container a{
 	color: #656c7a;
 }
 .footer{
@@ -384,12 +384,6 @@ audio:hover{
 	margin-top: 30px;
 	height:200px;
 	background: url("https://cdn.prod.www.spiegel.de/images/4317195a-0001-0004-0000-000001195323_w1528_r1.5625_fpx43.52_fpy50.jpg") no-repeat center center / cover;
-}
-.footer p{
-	display: flex;
-	position: relative;
-	z-index:10;
-	color:white
 }
 .footer::after{
 	content: '';
@@ -401,7 +395,7 @@ audio:hover{
 	background-color: black;
 	opacity: 0.8;
 }
-.footertitle{
+.footer__title{
 	position: relative;
     top: 18px;
     left: 120px;
@@ -411,11 +405,11 @@ audio:hover{
     height: 170px;
     border-right: 1px solid rgb(119,119,119);
 }
-.footertitle img{
+.footer__img{
 	width: 240px;
 	height: 60px;
 }
-.footersm{
+.social-networks{
 	color:white;
 	position: relative;
     top: 18px;
@@ -424,25 +418,25 @@ audio:hover{
     width: 369px;
     height: 170px;
 }
-.footersm h3{
+.social-networks__title{
   text-decoration: underline;
   font-size: 20px;
   margin: 0px 10px 10px 10px;
 }
-.footersm ol{
+.social-networks__people-list{
 	margin:5px;
 	font-size: 16px;
 	position:relative;
 	left: 20px;
 	list-style:upper-roman;
 }
-.footersm ol li{
+.social-networks__paragraph{
 	position:relative;
 	margin: 9px;
 }
-.footersm ol li a{
+.social-networks__link{
 	margin-left:5px;
 }
-.footersm ol li a:hover{
+.social-networks__link:hover{
    color: grey;
 }
