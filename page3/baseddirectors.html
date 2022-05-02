@@ -47,63 +47,63 @@
     </div>
     <div class = "container">
         <header class = "header">
-            <div class="pagename">
+            <div class="header__pagename">
                 <!-- <h1><a href="../index.html">𐌁𐌀ⱿꝊᏵ𐌋𐌙𐌀𐌃</a></h1> -->
-                <div class="titleimgblock">
-                    <a href="../index.html"><img src="../img/titleimage.png" alt="Error"></a>
+                <div class="header__title-block">
+                    <a href="../index.html"><img class="header__title-img" src="../img/titleimage.png" alt="Error"></a>
                 </div>
             </div>
-            <div class="icon">
-                <img src="../img/bolddirector.png" alt="Error">
+            <div class="header__icon-block">
+                <img class="header__icon-img" src="../img/bolddirector.png" alt="Error">
             </div>
         </header>
-        <main>
+        <main class="main">
             <nav class = "nav">
-                <ul class = "navmenu">
-                   <li><a href="../index.html#wib" class ="button">Что такое "база"?</a></li>
-                   <li><a href="../index.html#htbb_title" class ="button">Как стать "базированным"?</a></li>
-                   <li class ="peoplemenu"><a href="#bd" class ="button">Based режиссёры</a>
-                     <ul>
-                         <li><a href="#qt" class="button">Квентин Тарантино</a></li>
-                         <li><a href="#cn" class="button">Кристофер Нолан</a></li>
-                         <li><a href="#dv" class="button">Дэнни Вильнев</a></li>
-                         <li><a href="#gr" class="button">Гай Ричи</a></li>
-                         <li><a href="#jc" class="button">Джеймс Кэмерон</a></li>
-                         <li><a href="#ms" class="button">Мартин Скорсезе</a></li>
-                         <li><a href="#df" class="button">Девид Финчер</a></li>
-                         <li><a href="#ss" class="button">Стивен Спилберг</a></li>
-                         <li><a href="#fc" class="button">Френсис Копола</a></li>
-                         <li><a href="#sk" class="button">Стенли Кубрик</a></li>
+                <ul class = "nav__menu">
+                   <li><a href="../index.html#wib" class ="nav__button">Что такое "база"?</a></li>
+                   <li><a href="../index.html#htbb_title" class ="nav__button">Как стать "базированным"?</a></li>
+                   <li class ="nav__peoplemenu"><a href="#bd" class ="nav__button">Based режиссёры</a>
+                     <ul class="nav__peoplemenu-list">
+                         <li><a href="#qt" class="nav__button nav__button_dropdown-menu-button">Квентин Тарантино</a></li>
+                         <li><a href="#cn" class="nav__button nav__button_dropdown-menu-button">Кристофер Нолан</a></li>
+                         <li><a href="#dv" class="nav__button nav__button_dropdown-menu-button">Дэнни Вильнев</a></li>
+                         <li><a href="#gr" class="nav__button nav__button_dropdown-menu-button">Гай Ричи</a></li>
+                         <li><a href="#jc" class="nav__button nav__button_dropdown-menu-button">Джеймс Кэмерон</a></li>
+                         <li><a href="#ms" class="nav__button nav__button_dropdown-menu-button">Мартин Скорсезе</a></li>
+                         <li><a href="#df" class="nav__button nav__button_dropdown-menu-button">Девид Финчер</a></li>
+                         <li><a href="#ss" class="nav__button nav__button_dropdown-menu-button">Стивен Спилберг</a></li>
+                         <li><a href="#fc" class="nav__button nav__button_dropdown-menu-button">Френсис Копола</a></li>
+                         <li class ="nav__peoplemenu-list_last-link"><a href="#sk" class="nav__button nav__button_dropdown-menu-button">Стенли Кубрик</a></li>
                      </ul>
                   </li>   
                 </ul>
             </nav>
-            <div class="introflex">
+            <div class="intro-container">
                 <div class="introduction">
-                    <p class ="intro text">В крайнем разделе статьи вашему вниманию предстают десять величайших режиссёров. 
+                    <p class ="text introduction__text">В крайнем разделе статьи вашему вниманию предстают десять величайших режиссёров. 
                      Увидев имя хотя бы одного из них в титрах, вы можете смело думать: "О да, следующие два-три часа будут незабываемыми". 
                      Почти каждый фильм, созданный этими людьми, знает любой, кто хоть немного знаком с миром кино. 
                      Для высочайшего интеллектуального подъёма и познания базы стоит ознакомиться со всеми фильмами, созданными ниже перечисленными гуру кинематографа.</p>
                 </div>
-                <div class="sidebar">
-                    <h2>Навигация по веб-сайту:</h2>
-                    <ul>
-                        <li class ="mpli"><a href="../index.html" class = "mpl hlink">Based фильмы(главная)</a></li>
-                        <li><a href="../page2/basedactors.html" class = "hlink">Based актёры</a></li>
-                        <li><a href="./baseddirectors.html" class = "hlink">Based режиссёры</a></li>
-                    </ul> 
-                </div> 
-            </div>
-            <article class="basedpeople">
-                <h2 id ="bd" class ="bp title">Based режиссёры</h2>
+                <aside class="sidebar">
+                  <h2 class="sidebar__title">Навигация по веб-сайту:</h2>
+                  <ul class="sidebar__menu">
+                      <li class="sidebar__li sidebar__li_mpl"><a href="../index.html" class = "sidebar__link sidebar__link_mpl">Based фильмы(главная)</a></li>
+                      <li class="sidebar__li"><a href="../page2/basedactors.html" class = "sidebar__link">Based актёры</a></li>
+                      <li class="sidebar__li"><a href="./baseddirectors.html" class = "sidebar__link">Based режиссёры</a></li>
+                  </ul>
+                </aside>
+            </div>    
+            <article class="based-people">
+                <h2 id ="bd" class ="title based-people__title">Based режиссёры</h2>
                 <section class="person">
-                  <h3 id="qt">Квентин Тарантино</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/qt0.png" alt="Error">
-                          <h3>Базированность: ꝏ / 10</h3>
+                  <h3 class="person__name" id="qt">Квентин Тарантино</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/qt0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: ꝏ / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Кве́нтин Джером Таранти́но (Quentin Jerome Tarantino, 59 лет) — американский кинорежиссёр, сценарист, актёр, кинопродюсер, кинооператор. Один из наиболее ярких представителей постмодернизма в кинематографе. Фильмы Тарантино отличаются нелинейной структурой повествования, переосмыслением культурно-исторического процесса, использованием готовых форм и эстетизацией насилия.
                         Мировую известность получил после картины <a href="../index.html#pf" class="textlink">"Криминальное чтиво" (1994)</a>, которая принесла ему "Золотую пальмовую ветвь" Каннского кинофестиваля, а также премии "Оскар", "BAFTA" и "Золотой глобус" за лучший сценарий. 
                         К его работам относятся также "Бешеные псы" (1992), "Джеки Браун" (1997), "Убить Билла" (в двух частях, 2003—2004), "Доказательство смерти" (2007), "Бесславные ублюдки" (2009), "Джанго освобождённый" (2012), "Омерзительная восьмёрка" (2015) и "Однажды в… Голливуде" (2019). За сценарий к "Джанго освобождённый" Тарантино был вновь удостоен "Оскара", "BAFTA" и "Золотого глобуса".
@@ -111,38 +111,38 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/qt1.png" alt="Error">
-                    <img src="../img/Directors' photos/qt2.png" alt="Error">
-                    <img src="../img/Directors' photos/qt3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/qt1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/qt2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/qt3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="cn">Кристофер Нолан</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/cn0.png" alt="Error">
-                          <h3>Базированность: 1000 / 10</h3>
+                  <h3 class="person__name" id="cn">Кристофер Нолан</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/cn0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 1000 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Кристофер Джонатан Джеймс Нолан (Christopher Jonathan James Nolan, 51 год) — британский и американский кинорежиссёр, сценарист и продюсер. Является одним из самых кассовых режиссёров в истории, а также одним из самых известных и влиятельных кинематографистов своего времени.
                         Фильмы Нолана основываются на философских, социологических и этических концепциях, исследуют человеческую мораль, конструирование времени и податливую природу памяти и личной идентичности. Его творчество пронизано материалистическими перспективами, нелинейной последовательностью сюжета, практическими спецэффектами, инновационными звуковыми сценами, широкоформатной киносъёмкой и аналогичными отношениями между визуальным языком и повествовательными элементами. В дополнение к его кинопроизводству, он защитник сохранения целостности фильма и постоянной доступности запаса сюжетных линий.
                         <em>Все фильмы режиссёра являются  шедеврами кинематографа, а некоторые ещё и гипербазированные. Ознакомление с фильмографией Нолана <strong>обязательно</strong></em>!
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/cn1.png" alt="Error">
-                    <img src="../img/Directors' photos/cn2.png" alt="Error">
-                    <img src="../img/Directors' photos/cn3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/cn1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/cn2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/cn3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="dv">Дэнни Вильнев</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/dv0.png" alt="Error">
-                          <h3>Базированность: 9 / 10</h3>
+                  <h3 class="person__name" id="dv">Дэнни Вильнев</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/dv0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 9 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Дени Вильнёв (Denis Villeneuve, 54 года) — франко-канадский кинорежиссёр и сценарист.
                         В начале своей карьеры он выиграл молодёжный киноконкурс "Радио-Канада" в 1990—1991 годах. Трижды завоёвывал высшую национальную кинопремию Канады «Джини» за лучшую режиссуру: «Водоворот» (2000), "Политех" (2010) и "Пожар" (2011). В 2010 году его фильм «Пожары» представлял Канаду на 83-й церемонии вручения наград "Оскар" в категории "Лучший фильм на иностранном языке". В январе 2011 года Дени Вильнёв был включён в список 10 самых многообещающих молодых режиссёров по мнению еженедельника Variety.
                         Визитной карточкой фильмов Вильнёва является потрясающая глубина картинки и пейзажи в целом, за что они и полюбились многим любителям подобной красоты.
@@ -151,38 +151,38 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/dv1.png" alt="Error">
-                    <img src="../img/Directors' photos/dv2.png" alt="Error">
-                    <img src="../img/Directors' photos/dv3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/dv1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/dv2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/dv3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="gr">Гай Ричи</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/gr0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="gr">Гай Ричи</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/gr0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Гай Стюарт Ричи (Guy Ritchie, 53 года) — британский кинорежиссёр, сценарист, продюсер, чаще всего работающий в жанре криминальной комедии. Наиболее известные фильмы — "Карты, деньги, два ствола", "Большой куш", "Револьвер", "Рок-н-рольщик", "Шерлок Холмс", "Шерлок Холмс: Игра теней", "Агенты А.Н.К.Л.", "Меч короля Артура", "Аладдин", "Джентльмены", "Гнев человеческий".
                         <br><br>
                         Самые базированные работы режиссёра: "Карты, деньги, два ствола" (1998), "Большой Куш" (2000), Шеролок Холмс(обе части), "Джентельмены" (2020).
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/gr1.png" alt="Error">
-                    <img src="../img/Directors' photos/gr2.png" alt="Error">
-                    <img src="../img/Directors' photos/gr3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/gr1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/gr2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/gr3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="jc">Джеймс Кэмерон</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/jc0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="jc">Джеймс Кэмерон</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/jc0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Джеймс Фрэнсис Кэмерон (James Francis Cameron, 67 лет) — канадский кинорежиссёр, наиболее известный по созданию научно-фантастических и эпических фильмов. 
                         Кэмерон впервые добился признания за режиссуру фильма «Терминатор» (1984). Затем постановщик обрёл критический и коммерческий успех благодаря картинам "Чужие" (1986), "Бездна" (1989), "Терминатор 2: Судный день" (1991) и "Правдивая ложь" (1994). Его самые высокобюджетные киноленты — "Титаник" (1997) и "Аватар" (2009), причём первая удостоилась премии "Оскар" в номинациях "Лучший фильм", "Лучший режиссёр" и "Лучший монтаж".
                         Если вы услышите отзыв о фильме: "Это классика кино", то с высокой вероятностью его режиссером был именно Кэмерон. 
@@ -192,19 +192,19 @@
                     </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/jc1.png" alt="Error">
-                    <img src="../img/Directors' photos/jc2.png" alt="Error">
-                    <img src="../img/Directors' photos/jc3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/jc1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/jc2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/jc3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="ms">Мартин Скорсезе</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/ms0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="ms">Мартин Скорсезе</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/ms0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Мартин Чарльз Скорсезе (Martin Charles Scorsese, 79 лет) — американский кинорежиссёр, продюсер, сценарист и актёр.
                         Фильмам Скорсезе присущи жестокость и насилие, в кинематографических кругах он известен как мастер гангстерских лент. Огромное влияние на режиссёра оказали картины Кинга Видора, Джона Хьюстона, Майкла Пауэлла, Эмериха Прессбургера, Джона Форда, Элиа Казана, Бернардо Бертолуччи и многих других. 
                         Скорсезе предпочитает не менять создателей своих проектов, постоянно работая с <a href="../page2/basedactors.html#rdn" class="textlink">Робертом Де Ниро</a>, <a href="../page2/basedactors.html#ldc" class="textlink">Леонардо Ди Каприо</a> и монтажёром Тельмой Скунмейкер.
@@ -214,19 +214,19 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/ms1.png" alt="Error">
-                    <img src="../img/Directors' photos/ms2.png" alt="Error">
-                    <img src="../img/Directors' photos/ms3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ms1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ms2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ms3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="df">Дэвид Финчер</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/df0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="df">Дэвид Финчер</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/df0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Дэвид Э́дрю Лео Финчер (David Andrew Leo Fincher, 59 лет) — американский кинорежиссёр, продюсер и клипмейкер. Наиболее известен по созданию психологических триллеров, его работы удостоились многочисленных номинаций на премию "Оскар" и "Золотой глобус".
                         Увлечение киносъёмками появилось у Финчера ещё в детстве. Он впервые добился признания благодаря съёмке музыкальных клипов. Дебютной киноработой Финчера стал художественный фильм "Чужой 3" (1992), который вызвал смешанные отзывы критиков. 
                         Затем последовал триллер "Семь" (1995), получивший позитивную реакцию. Финчер обрёл успех с фильмами "Игра" (1997) и "Бойцовский клуб" (1999), причём последний в итоге стал культовой классикой.
@@ -235,19 +235,19 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/df1.png" alt="Error">
-                    <img src="../img/Directors' photos/df2.png" alt="Error">
-                    <img src="../img/Directors' photos/df3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/df1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/df2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/df3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="ss">Стивен Спилберг</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/ss0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="ss">Стивен Спилберг</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/ss0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Стивен Аллан Спилберг (Steven Allan Spielberg, 75 лет) — американский кинорежиссёр, продюсер и сценарист. Один из самых коммерчески успешных режиссёров в истории. Лауреат многих премий, в частности, трёх "Оскаров", Центра Кеннеди, Сесиля Б. Де Милля.
                         Впервые получил известность в 1975 году благодаря летнему блокбастеру «Челюсти». Впоследствии Спилберг снял кассовые хиты «Близкие контакты третьей степени», «Инопланетянин» и серию фильмов «Индиана Джонс». Затем последовали драмы «Цветы лиловые полей» и «Империя солнца».
                         <br><br>
@@ -255,18 +255,18 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/ss1.png" alt="Error">
-                    <img src="../img/Directors' photos/ss2.png" alt="Error">
-                    <img src="../img/Directors' photos/ss3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ss1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ss2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/ss3.png" alt="Error">
                 </section>
                 <section class="person">
-                  <h3 id="fc">Френсис Копола</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/fc0.png" alt="Error">
-                          <h3>Базированность: 8 / 10</h3>
+                  <h3 class="person__name" id="fc">Френсис Копола</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/fc0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 8 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Фрэнсис Форд Коппола (Francis Ford Coppola, 82 года) — американский кинорежиссер, продюсер и сценарист. Он был центральной фигурой в новом голливудском кинематографическом движении 1960-х и 1970-х годов. Его награды включают пять премий "Оскар", шесть премий "Золотой глобус", две золотые пальмовые ветви и премию Британской киноакадемии.
                         Репутация Копполы как режиссера была закреплена выходом фильма "Крестный отец" (1972), который произвел революцию в создании фильмов в жанре гангстерского кино и получил сильный коммерческий и критический прием. "Крестный отец" получил три премии "Оскар": за лучшую картину, лучшую мужскую роль и лучший адаптированный сценарий (совместно с Марио Пьюзо).
                         <br><br>
@@ -274,19 +274,19 @@
                       </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/fc1.png" alt="Error">
-                    <img src="../img/Directors' photos/fc2.png" alt="Error">
-                    <img src="../img/Directors' photos/fc3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/fc1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/fc2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/fc3.png" alt="Error">
                 </div>
                 </section>
                 <section class="person">
-                  <h3 id="sk">Стенли Кубрик</h3>
-                  <div class="persontextblock">
-                      <div class="personpic">
-                          <img src="../img/Directors' photos/sk0.png" alt="Error">
-                          <h3>Базированность: 10 / 10</h3>
+                  <h3 class="person__name" id="sk">Стенли Кубрик</h3>
+                  <div class="person__textblock">
+                      <div class="person__picture-block">
+                          <img class="person__picture" src="../img/Directors' photos/sk0.png" alt="Error">
+                          <h3 class="person__base-title">Базированность: 10 / 10</h3>
                       </div>
-                      <p class ="persondescrip text">
+                      <p class ="text person__description">
                         Стэнли Кубрик (Stanley Kubrick, умер 7.03.1999(70 лет)) — британский и американский кинорежиссёр, сценарист, кинопродюсер, кинооператор и фотограф, один из самых влиятельных кинематографистов второй половины XX века. Фильмы Кубрика, в основном экранизации, сняты с большим техническим мастерством. 
                         К особенностям его режиссёрского почерка относят специфическое использование крупных планов, необычного панорамирования, наплыва, а также непривычное употребление популярной и классической музыки. Кубрик часто изображает одиночество человека, его изоляцию от окружающей действительности в собственном, им самим придуманном мире. Лауреат кинопремии "Оскар" и многих других кинопремий.
                         <br><br>
@@ -294,16 +294,16 @@
                     </p>
                   </div>
                   <div class="otherpics">
-                    <img src="../img/Directors' photos/sk1.png" alt="Error">
-                    <img src="../img/Directors' photos/sk2.png" alt="Error">
-                    <img src="../img/Directors' photos/sk3.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/sk1.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/sk2.png" alt="Error">
+                    <img class="otherpics__picture" src="../img/Directors' photos/sk3.png" alt="Error">
                 </div>
                 </section>
             </article>
-            <div class="pageswitchblock">
-                <div class="previouspagebuttonblock">
+            <div class="page-switch-block">
+                <div class="previous-page-button-block">
                   <i class="fa-solid fa-arrow-left-long"></i>
-                  <a href="../page2/basedactors.html" class = "previouspagelink">Предыдущая страница: <strong>Based актёры</strong></a>
+                  <a href="../page2/basedactors.html" class = "previous-page-button-block__link">Предыдущая страница: <strong>Based актёры</strong></a>
                 </div>
             </div>
           </main>
@@ -324,27 +324,27 @@
             </script>
           </div>
           <footer class="footer">
-            <div class="footertitle">
-              <a href="../index.html"><img src="../img/titleimage.png" alt="Error"></a>
+            <div class="footer__title">
+                <img class="footer__img" src="../img/titleimage.png" alt="Error">
             </div>
-              <div class="footersm">
-                  <h3>Соц. сети</h3>
-                  <ol>
-                      <li>Создатель сайта и автор идеи:
-                          <ul>
-                              <li class="insta"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/ilya_dronov738/" target="_blank">Инстаграм</a></li>
-                              <li class="telega"><i class="fa-brands fa-telegram"></i><a href="https://t.me/Socnaz" target="_blank">Телеграм</a></li>
-                          </ul>
-                      </li>
-                      <li>Мудрец-ультрачад и автор идеи:
-                          <ul>
-                              <li class="insta"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/trlbbr/" target="_blank">Инстаграм</a></li>
-                              <li class="telega"><i class="fa-brands fa-telegram"></i><a href="https://t.me/AllCatsAreBeautiful" target="_blank">Телеграм</a></li>
-                          </ul>
-                      </li>
-                  </ol>
-              </div>
-          </footer> 
+            <div class="social-networks">
+                <h3 class="social-networks__title">Соц. сети</h3>
+                <ol class="social-networks__people-list">
+                    <li class="social-networks__paragraph">Создатель сайта и автор идеи:
+                        <ul>
+                            <li class="social-networks__paragraph"><i class="fa-brands fa-instagram"></i><a class="social-networks__link" href="https://www.instagram.com/ilya_dronov738/" target="_blank">Инстаграм</a></li>
+                            <li class="social-networks__paragraph"><i class="fa-brands fa-telegram"></i><a class="social-networks__link" href="https://t.me/Socnaz" target="_blank">Телеграм</a></li>
+                        </ul>
+                    </li>
+                    <li class="social-networks__paragraph">Мудрец-ультрачад и автор идеи:
+                        <ul>
+                            <li class="social-networks__paragraph"><i class="fa-brands fa-instagram"></i><a class="social-networks__link" href="https://www.instagram.com/trlbbr/" target="_blank">Инстаграм</a></li>
+                            <li class="social-networks__paragraph"><i class="fa-brands fa-telegram"></i><a class="social-networks__link" href="https://t.me/AllCatsAreBeautiful" target="_blank">Телеграм</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </footer>
         </main>
     </div>
 </body>

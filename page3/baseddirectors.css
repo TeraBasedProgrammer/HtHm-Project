@@ -1,7 +1,7 @@
-.pagename{
+.header__pagename{
 	background: url("../img/3rdpagetitleimg.png") no-repeat center center / cover;
 }
-.previouspagebuttonblock{
+.previous-page-button-block{
     margin: 0;
 	display:inline-flex;
 	position: relative;
@@ -10,14 +10,14 @@
 	height: 50px;
 	width: 385px;
 }
-.previouspagebuttonblock i{
+.previous-page-button-block .fa-arrow-left-long{
 	font-size:25px;
 	height: 25px;
 	position: relative;
 	top: 9px;
 	left: 0px;
 }
-.previouspagelink{
+.previous-page-button-block__link{
 	text-align: center;
 	padding: 13px 10px;
 	width:360px;
