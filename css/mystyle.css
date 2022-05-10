@@ -21,7 +21,6 @@ body{
 }
 .container{
 	width: 1000px;
-	min-height: 3000px;
 	margin:60px auto;
 	border: 5px solid white;
 	background-color: white;
@@ -37,12 +36,8 @@ body{
 	width: 70%;
 	background: url("https://s11.favim.com/orig/7/776/7761/77616/blade-runner-2049-gif-pink-Favim.com-7761650.gif")  no-repeat center center / cover;
 }
-.header__title-block{
-   padding: 75px 0px 0px 146px;
-   position: relative;
-   z-index:2;
-}
 .header__title-img{
+	margin: 75px 0px 0px 146px;
 	width: 400px;
 	height:  100px;
 	position: relative;
